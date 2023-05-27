@@ -1,1 +1,5 @@
 import pyjokes
+
+
+def whysoserious():
+    ...
