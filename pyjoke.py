@@ -3,6 +3,6 @@ import pyjokes
 
 def whysoserious():
 
-    Joker = pyjokes.get_joke()
+    Joker = pyjokes.get_jokes('en', 'all')
 
     return Joker
