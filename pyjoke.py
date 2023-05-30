@@ -9,4 +9,7 @@ def whysoserious():
 
 
 def warumsoernst():
-    ...
+
+    Witzbold = pyjokes.get_jokes('de', 'all')
+
+    return Witzbold
