@@ -11,7 +11,8 @@ app = Flask(__name__)
 def index():
     Joker = whysoserious()
     Witzbold = warumsoernst()
-    return render_template("flaskjokes.html", Joker, Witzbold)
+    context = {Joker, Witzbold}
+    return render_template("flaskjokes.html", context=context)
 
 
 if __name__ == '__main__':
